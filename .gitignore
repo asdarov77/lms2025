@@ -1,23 +1,43 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
+```
+# Dependencies
+vendor/
+node_modules/
+
+# Build and cache directories
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+composer.lock
+
+# Environment specific files
 .env
-.env.backup
-.env.production
-.phpactor.json
+.env.local
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+storage/logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.phpc
+*.class
+*.o
+*.obj
+*.out
+
+# Testing
 .phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-/auth.json
-/.fleet
-/.idea
-/.nova
-/.vscode
-/.zed
+```
