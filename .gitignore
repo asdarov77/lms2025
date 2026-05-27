@@ -1,35 +1,4 @@
 ```
-# Dependencies
-vendor/
-node_modules/
-
-# Build artifacts
-composer.lock
-
-# Environment
-.env
-.env.local
-.env.*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-Thumbs.db
-.DS_Store
-
-# Tests
-.phpunit.result.cache
-
-# Cache
-bootstrap/cache/
-storage/framework/cache/
-storage/logs/
+# Test directories
+tests/
 ```
