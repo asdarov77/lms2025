@@ -1,53 +1,36 @@
 ```
+# Cache and test files
+.phpunit.result.cache
+
+# Common PHP ignores
+*.log
+*.tmp
+*.swp
+
 # Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-build/
-public/build/
-
-# Cache directories
 vendor/
 composer.lock
 
-# Environment variables
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# PHP specific
-*.php~
-**/vendor/**
-**/node_modules/**
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Laravel specific
-bootstrap/cache/
-storage/logs/
-storage/framework/cache/
-storage/framework/sessions/
-storage/framework/views/
-public/storage
-
-# Tests
-.phpunit.result.cache
-```merged_all.txt
+# Build artifacts
+dist/
+build/
+target/
+```
