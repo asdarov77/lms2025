@@ -1,4 +1,53 @@
 ```
-# Test directories
-tests/
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+public/build/
+
+# Cache directories
+vendor/
+composer.lock
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHP specific
+*.php~
+**/vendor/**
+**/node_modules/**
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel specific
+bootstrap/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+public/storage
+
+# Tests
+.phpunit.result.cache
 ```
